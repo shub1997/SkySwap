@@ -1,0 +1,650 @@
+.first-section {
+  background-color: #f9f7fb !important;
+  border-bottom: 1px solid #eae5f0;
+  padding: 3rem 24px !important;
+  margin-top: 70px;
+
+  .first-section-left{
+    display: inline-block;
+    width: 40%;
+  }
+  .first-section-right{
+    display: inline-block;
+    width: 55%;
+  }
+
+
+  .section-one-logo {
+    width: 250px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 10px;
+    margin-top: -30px;
+  }
+
+  .buy-sell-form {
+    box-shadow: 0 16px 24px rgba(51, 51, 51, 0.08);
+    background-color: white;
+    border-radius: 4px;
+    padding: 2rem;
+    padding-top: 1rem;
+
+    .form-header {
+      border-bottom: 1px solid #d8d8d8;
+      font-size: 14px;
+      font-weight: lighter;
+
+      .tab {
+        display: inline-block;
+        width: max-content;
+        padding: 15px 30px;
+        cursor: pointer;
+      }
+
+      .selected-tab {
+        color: #34a853;
+        font-weight: 600;
+        border-bottom: 3px solid #34a853;
+      }
+    }
+
+    .form {
+      text-align: left;
+      .form-heading {
+        margin-top: 25px;
+        color: #333;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: normal;
+        line-height: 16px;
+        text-transform: none;
+      }
+
+      .fade-grey{
+        color: #848484;
+      }
+
+      .crypto-tab-container {
+        width: 100%;
+        margin-top: 10px;
+
+        .crypto-tab-inline {
+          display: inline-block;
+          width: 33%;
+        }
+
+        .selected-crypto-tab {
+          background-color: #f4fafd !important;
+          border-color: #00a5ef !important;
+          color: #333 !important;
+        }
+
+        .crypto-tab {
+          color: #333;
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: normal;
+          line-height: 16px;
+          text-transform: none;
+          align-items: center;
+          border: 1px solid #d8d8d8;
+          width: 90%;
+          padding: 0px 10px;
+          border-radius: 4px;
+          cursor: pointer;
+
+          div {
+            text-align: center;
+          }
+          svg {
+            width: 15px;
+          }
+        }
+      }
+
+      .price-container {
+        color: #848484 !important;
+        margin-top: 10px;
+        .info-logo {
+          display: inline-block;
+          margin-right: 6px;
+          vertical-align: bottom;
+        }
+
+        .info-price-container {
+          display: inline-block;
+
+          .info-about {
+            font-size: 14px;
+            display: inline;
+          }
+
+          .info-price {
+            display: inline;
+            font-size: 14px;
+            color: #333;
+          }
+        }
+      }
+    }
+
+    .payment-input-box {
+      background-color: #f8f8f8;
+      border: 1px solid #d8d8d8;
+      padding: 12px 24px;
+      min-height: 48px;
+      border-radius: 4px;
+      margin-top: 10px;
+
+      .payment-method-typo {
+        display: inline;
+        font-size: 15px;
+        color: #333;
+        vertical-align: middle;
+        width: 59%;
+        border: none;
+        background: transparent;
+      }
+
+      .payment-method-typo:focus {
+        outline: none;
+        border: none;
+      }
+
+      .Showall-button-container {
+        width: 40%;
+        position: relative;
+
+        .currency-list-container{
+          position: absolute;
+          z-index: 1;
+          top: 60px;
+          width: 200%;
+          padding: 24px;
+          border: 1px solid #d8d8d8;
+          background: white;
+          right: 0px;
+          max-height: 500px;
+          overflow: auto;
+
+          .currency-tab{
+            padding: 8px;
+
+            .currency-name{
+              width: 70%;
+              font-size: 14px;
+              font-weight: 400;
+              color: #333;
+              display: inline-block;
+              vertical-align: middle;
+            }
+
+            .currency-sumbol-container{
+              width: 29%;
+              text-align: center;
+              display: inline-block;
+              vertical-align: middle;
+
+              .currency-sumbol-paper{
+                width: max-content;
+                border: 1px solid #848484;
+                padding: 2px 8px ;
+                border-radius: 4px;
+                margin-left: auto;
+                min-width: 50px;
+
+                .currency-symbol{
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+
+          .currency-tab:hover{
+            background: #eae5f0;
+            border-left: 3px solid #4285f4;
+            border-radius: 2px;
+
+            .currency-name{
+              color: #4285f4;
+            }
+
+            .currency-symbol{
+             color: #4285f4;
+            }
+
+            .currency-sumbol-paper{
+              border: 1px solid white;
+            }
+          }
+        }
+      }
+      .Showall-button {
+        margin-left: auto;
+        width: max-content;
+        background-color: #fff;
+        border: 1px solid #00a5ef !important;
+        color: #333;
+        padding: 4px 8px;
+        font-size: 14px;
+        color: #333;
+        font-weight: 500;
+        border-radius: 4px;
+        cursor: pointer;
+        svg {
+          color: #4285f4;
+          vertical-align: bottom;
+          margin-left: 5px;
+        }
+      }
+
+      .showall-button-clicked {
+        margin-left: auto;
+        width: max-content;
+        background-color: #4285f4;
+        border: 1px solid #00a5ef !important;
+        color: #333;
+        padding: 4px 8px;
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 500;
+        border-radius: 4px;
+        cursor: pointer;
+        svg {
+          color: #ffffff;
+          vertical-align: bottom;
+          margin-left: 5px;
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+
+  .right-compound {
+    min-width: 100%;
+    text-align: left;
+    margin: auto 30px;
+
+    .heavy-text {
+      font-size: 48px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+      font-weight: 800;
+      color: #4285f4;
+      display: inline-block;
+    }
+
+    .desc-container {
+      margin-top: 25px;
+      color: #333;
+      .desc-text {
+        font-size: 14px;
+        line-height: 28px;
+        font-family: Open Sans, sans-serif;
+      }
+
+      .bold-600 {
+        font-weight: 600;
+      }
+
+      .desc-button {
+        background-color: white;
+        border: 1px solid #d8d8d8 !important;
+        font-size: 14px;
+        text-transform: none;
+        margin-right: 20px;
+        padding: 4px 8px;
+      }
+    }
+  }
+}
+
+.second-section {
+  .features-section {
+    width: 100%;
+    margin: 3rem 24px;
+
+    .feature-text-container {
+      margin-top: 16px;
+
+      .feature-text {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .tabs-container {
+    width: 100%;
+
+    .tab {
+      width: max-content;
+      display: inline-block;
+      color: #333;
+      padding: 10px 15px;
+      margin: 35px 15px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .selected-tab {
+      border-bottom: 1px solid #4285f4;
+      font-weight: 600;
+    }
+
+    .unselected-tab {
+      border-bottom: 1px solid #d8d8d8;
+    }
+  }
+
+  .card-container {
+    color: #333;
+    .card-paper {
+      display: inline-block;
+      margin: 20px;
+      width: max-content;
+      vertical-align: bottom;
+    }
+    .card {
+      text-align: left;
+      padding: 15px;
+      border: 1px solid #d8d8d8;
+      width: 330px;
+      max-height: 165px;
+      border-radius: 4px;
+
+      .card-image {
+        width: 100%;
+        svg {
+          width: 50px;
+        }
+      }
+
+      .card-heading {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 10px 0px;
+        color: #34a853;
+      }
+
+      .card-description {
+        font-size: 12px;
+        line-height: 18px;
+        color: #232323;
+        min-height: 36px;
+      }
+    }
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.offer-button-container {
+  margin: 20px auto;
+  width: 100%;
+  position: static;
+  z-index: 0;
+
+  .width-100{
+    width: 100% !important;
+  }
+  .offer-button {
+    padding: 10px 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #4285f4;
+    border: 1.5px solid darkblue;
+    border-radius: 5px;
+    text-transform: none;
+  }
+}
+
+.heading-description {
+  width: 650px;
+  margin: auto;
+  margin-top: 30px;
+
+  .heading-section {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    width: 440px;
+    margin: auto;
+    font-family: Montserrat, Open Sans, sans-serif;
+    color: #fbbc05;
+    margin-bottom: 15px;
+  }
+
+  .description-section {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: auto;
+    font-family: Montserrat, Open Sans, sans-serif;
+    color: #333;
+  }
+}
+
+.third-section {
+  .info-container {
+    width: 100%;
+
+    .info-card-paper {
+      display: inline-block;
+      margin: 30px;
+    }
+    .info-card {
+      background-color: #f9f7fb;
+      border-radius: 4px;
+      padding: 24px;
+      max-width: 260px;
+      min-width: 260px;
+      max-height: 65px;
+      min-height: 65px;
+      text-align: left;
+      .info-image {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      .info-right-part {
+        display: inline-block;
+
+        .info-number {
+          color: #34a853;
+          font-size: 36px;
+          line-height: 52px;
+          font-weight: 800;
+        }
+
+        .info-text {
+          font-size: 16px;
+          color: #333;
+          font-weight: 400;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+
+.fourth-section {
+  .usp-section {
+    width: 80%;
+    margin: auto;
+    .usp-card {
+      display: inline-block;
+      margin: 20px;
+      text-align: center;
+      min-width: 280px;
+      max-width: 280px;
+      min-height: 130px;
+      max-height: 130px;
+      .usp-card-image {
+        svg {
+          width: 50px;
+        }
+        margin-bottom: 5px;
+      }
+      .usp-card-heading {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: #34a853;
+        margin-bottom: 10px;
+      }
+
+      .usp-card-text {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.fifth-section {
+  .fifth-section-image {
+    width: 80%;
+    margin: 0px auto;
+  }
+}
+
+@media(min-width:770px){
+  .desktop-hidden{
+    display: none !important;
+  }
+}
+
+@media(max-width:1025px){
+  .usp-section{
+    width: 100% !important;
+  }
+  .third-section .info-container .info-card-paper {
+    display: inline-block;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 769px) {
+  
+  body{
+    overflow-x: hidden;
+  }
+  .mobile-hidden{
+    display: none !important;
+  }
+  .first-section{
+    .first-section-left{
+      display: block;
+      width: 100%;
+    }
+    .first-section-right{
+      display: block;
+      width: 100%;
+    }
+    border-radius: 4px;
+
+    .buy-sell-form{
+      padding: 14px;
+    }
+    
+    .crypto-tab{
+      padding: 0px 5px;
+    }
+    
+    .right-compound{
+      margin: 0px;
+
+      .heavy-text{
+        font-size: 24px;
+      }
+
+      .section-one-logo{
+        width: 150px;
+      }
+    }
+  }
+
+  .second-section{
+    .feature-image-container{
+      display: inline-block;
+      margin-right: 25px;
+      vertical-align: sub;
+    }
+    .feature-text-container{
+      display: inline-block;
+      vertical-align: super;
+      
+      .feature-text{
+        font-size: 16px !important;
+      }
+    }
+
+    .features-section{
+      margin: 1.5rem 24px;
+    }
+
+    .card-paper{
+      margin: 5px 5px !important;
+      .card{
+        padding: 10px 15px;
+        .card-image{
+          display: inline-block;
+          width: max-content;
+          margin-right: 15px;
+          vertical-align: sub;
+
+          svg{
+            width: 35px;
+          }
+        }
+        .card-heading{
+          display: inline-block;
+          vertical-align: super;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .offer-button-container {
+    .offer-button{
+      width: 95%;
+    }
+  }
+
+  .heading-description{
+    margin-top : 14px;
+    width: 90%;
+    margin: auto;
+
+    .heading-section {
+      width: 100%;
+    }
+  }
+
+  .info-card-paper{
+    margin: 5px 5px !important;
+
+    .info-card{
+      padding: 12px 24px !important;
+
+      .info-right-part{
+        vertical-align: super;
+      }
+      .info-number{
+        font-size: 28px !important;
+        line-height: 44px !important;
+      }
+    }
+  }
+}
+
+body{
+  overflow-x: hidden;
+}
